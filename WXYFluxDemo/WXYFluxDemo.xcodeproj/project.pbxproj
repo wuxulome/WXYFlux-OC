@@ -13,7 +13,7 @@
 		C2DF306D1D2A57B900F86CD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DF306B1D2A57B900F86CD4 /* Main.storyboard */; };
 		C2DF306F1D2A57B900F86CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DF306E1D2A57B900F86CD4 /* Assets.xcassets */; };
 		C2DF30721D2A57B900F86CD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DF30701D2A57B900F86CD4 /* LaunchScreen.storyboard */; };
-		C2DF307F1D2A57C800F86CD4 /* WXYFluxDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DF307D1D2A57C800F86CD4 /* WXYFluxDispatcher.m */; };
+		C2DF30AB1D2A58D800F86CD4 /* WXYFluxDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DF30A91D2A58D800F86CD4 /* WXYFluxDispatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +27,11 @@
 		C2DF306E1D2A57B900F86CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2DF30711D2A57B900F86CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2DF30731D2A57B900F86CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2DF307A1D2A57C800F86CD4 /* WXYFlux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXYFlux.h; sourceTree = "<group>"; };
-		C2DF307B1D2A57C800F86CD4 /* WXYFluxAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXYFluxAction.h; sourceTree = "<group>"; };
-		C2DF307C1D2A57C800F86CD4 /* WXYFluxDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXYFluxDispatcher.h; sourceTree = "<group>"; };
-		C2DF307D1D2A57C800F86CD4 /* WXYFluxDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXYFluxDispatcher.m; sourceTree = "<group>"; };
-		C2DF307E1D2A57C800F86CD4 /* WXYFluxStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXYFluxStore.h; sourceTree = "<group>"; };
+		C2DF30A61D2A58D800F86CD4 /* WXYFlux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXYFlux.h; sourceTree = "<group>"; };
+		C2DF30A71D2A58D800F86CD4 /* WXYFluxAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXYFluxAction.h; sourceTree = "<group>"; };
+		C2DF30A81D2A58D800F86CD4 /* WXYFluxDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXYFluxDispatcher.h; sourceTree = "<group>"; };
+		C2DF30A91D2A58D800F86CD4 /* WXYFluxDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXYFluxDispatcher.m; sourceTree = "<group>"; };
+		C2DF30AA1D2A58D800F86CD4 /* WXYFluxStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXYFluxStore.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		C2DF30561D2A57B900F86CD4 = {
 			isa = PBXGroup;
 			children = (
-				C2DF30791D2A57C800F86CD4 /* WXYFlux-OC */,
+				C2DF30A51D2A58D800F86CD4 /* WXYFlux-OC */,
 				C2DF30611D2A57B900F86CD4 /* WXYFluxDemo */,
 				C2DF30601D2A57B900F86CD4 /* Products */,
 			);
@@ -86,16 +86,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C2DF30791D2A57C800F86CD4 /* WXYFlux-OC */ = {
+		C2DF30A51D2A58D800F86CD4 /* WXYFlux-OC */ = {
 			isa = PBXGroup;
 			children = (
-				C2DF307A1D2A57C800F86CD4 /* WXYFlux.h */,
-				C2DF307B1D2A57C800F86CD4 /* WXYFluxAction.h */,
-				C2DF307C1D2A57C800F86CD4 /* WXYFluxDispatcher.h */,
-				C2DF307D1D2A57C800F86CD4 /* WXYFluxDispatcher.m */,
-				C2DF307E1D2A57C800F86CD4 /* WXYFluxStore.h */,
+				C2DF30A61D2A58D800F86CD4 /* WXYFlux.h */,
+				C2DF30A71D2A58D800F86CD4 /* WXYFluxAction.h */,
+				C2DF30A81D2A58D800F86CD4 /* WXYFluxDispatcher.h */,
+				C2DF30A91D2A58D800F86CD4 /* WXYFluxDispatcher.m */,
+				C2DF30AA1D2A58D800F86CD4 /* WXYFluxStore.h */,
 			);
-			path = "WXYFlux-OC";
+			name = "WXYFlux-OC";
+			path = "../WXYFlux-OC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,7 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2DF307F1D2A57C800F86CD4 /* WXYFluxDispatcher.m in Sources */,
+				C2DF30AB1D2A58D800F86CD4 /* WXYFluxDispatcher.m in Sources */,
 				C2DF306A1D2A57B900F86CD4 /* ViewController.m in Sources */,
 				C2DF30671D2A57B900F86CD4 /* AppDelegate.m in Sources */,
 				C2DF30641D2A57B900F86CD4 /* main.m in Sources */,
@@ -327,6 +328,7 @@
 				C2DF30781D2A57B900F86CD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
